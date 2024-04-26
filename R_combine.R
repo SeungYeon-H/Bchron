@@ -14,6 +14,7 @@ plot(x15)
 
 #R_combine 
 # IF the amount of the T and P value is large, it is acceptable as this implies the original dates don't have the profound difference. 
+#but Tval >10, it means rejected.... 3.5, 0.5 = fine..
 x = c(1630,1580,1620)
 errors = c(60,50,60)
 id = c(1,1,1)
